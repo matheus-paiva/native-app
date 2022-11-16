@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import logo from './assets/logo.jpg';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Matheus Paiva Bacalhau</Text>
       <StatusBar style="auto" />
+      <Image source={logo} style={{width:305, height:159}} />
     </View>
   );
 }
